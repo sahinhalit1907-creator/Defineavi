@@ -630,7 +630,7 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
     p_tess:  I('Mozaik Tesserae Seti', '🧩', 3, 2300, .88, [70, 82], [.4, 1.2], 3, 'silver', 'Villa zeminlerinden altın yaldızlı taşlar.', 'pompei'),
     p_ring:  I('Altın Mühür Yüzük', '💍', 3, 3800, .93, [78, 88], [.6, 1.4], 1.8, 'gold', 'Bir tüccarın imza yüzüğü.', 'pompei'),
     p_snake: I('Altın Yılan Bilezik', '🐍', 3, 6000, .96, [86, 94], [.9, 1.6], 1, 'gold', 'Pompei kadınlarının favori bileziği.', 'pompei'),
-    p_gypsy: I('Çingene Kızı Sikkesi', '🪙', 3, 18000, 1, [88, 97], [1.2, 1.9], .3, 'legend', 'Zeugma’nın ünlü “Çingene Kızı” mozaiğinin portresini taşıyan anma sikkesi (kurgu).', 'pompei'),
+    p_gypsy: I('Çingene Kızı Sikkesi', '🪙', 3, 30000, 1, [90, 98], [1.2, 1.9], .3, 'legend', 'Zeugma’nın ünlü “Çingene Kızı” (Gaia) mozaiğinin portresini taşıyan anma sikkesi (kurgu).', 'zeugma'),
     p_helm:  I('Gladyatör Miğferi', '🛡️', 3, 15000, 1, [90, 98], [1.2, 1.9], .3, 'legend', 'Gladyatör kışlasından çıkan süslü tören miğferi.', 'pompei'),
 
     /* ---- 7) Machu Picchu · İnka ---- */
@@ -649,7 +649,78 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
     e_ankh:  I('Altın Ankh', '🔱', 3, 9800, .95, [84, 92], [.9, 1.8], 2, 'gold', 'Ölümsüzlüğün anahtarı.', 'luksor'),
     e_pect:  I('Firavun Göğüslüğü', '📿', 3, 26000, 1, [90, 98], [1.3, 2.1], .6, 'legend', 'Lapis ve altın… tanrı-kral için.', 'luksor'),
     e_dag:   I('Göktaşı Demirli Hançer', '🗡️', 3, 48000, 1, [92, 99], [1.5, 2.3], .35, 'legend', 'Gökten düşmüş demirden dövülmüş kral hançeri.', 'luksor'),
-    e_mask:  I('Altın Ölü Maskesi', '🎭', 3, 120000, 1, [94, 99], [1.6, 2.4], .15, 'legend', 'Kral mezarlarının en büyük hazinesi!', 'luksor')
+    e_mask:  I('Altın Ölü Maskesi', '🎭', 3, 120000, 1, [94, 99], [1.6, 2.4], .15, 'legend', 'Kral mezarlarının en büyük hazinesi!', 'luksor'),
+
+    /* ---- Yeni sahalar ---- */
+    w_coin: I("Roma Bronz Sikkesi", "🟤", 2, 600, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Fırat geçidinden geçen lejyonerlerin parası.", 'zeugma'),
+    w_lamp: I("Pişmiş Toprak Kandil", "🪔", 2, 1000, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Villa odalarını aydınlatan kandil.", 'zeugma'),
+    w_seal: I("Kil Mühür (Bulla)", "🔖", 3, 2800, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Zeugma arşivinden yüzlerce mühürlü kil parçası.", 'zeugma'),
+    w_tess: I("Mozaik Tessera Seti", "🧩", 3, 4400, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Villa zeminlerinin renkli taşları.", 'zeugma'),
+    w_mars: I("Bronz Mars Heykelciği", "🛡️", 3, 8200, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Savaş tanrısı Mars’ın bronz heykeli türü.", 'zeugma'),
+    w_pos: I("Poseidon Mozaik Parçası", "🔱", 3, 13500, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Deniz tanrısının ünlü mozaik panosundan.", 'zeugma'),
+    c_flint: I("Obsidyen Ok Ucu", "🏹", 2, 90, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Volkanik camdan, jilet gibi keskin.", "catal"),
+    c_bead: I("Kemik Boncuk", "📿", 2, 140, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Duvar altına gömülen bir kolyeden.", "catal"),
+    c_seal: I("Kil Damga Mühür", "🔖", 3, 380, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Kumaş ve vücut süsü basmak için oyulmuş damga.", "catal"),
+    c_mirror: I("Obsidyen Ayna", "🪞", 3, 820, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Parlatılmış volkanik camdan en eski aynalardan.", "catal"),
+    c_bull: I("Boğa Boynuzlu Kabartma", "🐂", 3, 2000, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Evlerin duvarını süsleyen boğa başı (bukranyum).", "catal"),
+    c_map: I("Duvar Resmi Parçası", "🖼️", 3, 3600, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Bir köy ve yanardağ betimi — “ilk harita” olabilir (tartışmalı).", "catal"),
+    c_god: I("Oturan Ana Tanrıça", "🗿", 3, 8200, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "İki leoparın arasında tahtta oturan ünlü kil heykelcik türü.", "catal"),
+    t_arrow: I("Bronz Ok Ucu", "🏹", 2, 280, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Kuşatma savaşlarından kalma.", "truva"),
+    t_pin: I("Bronz Süs İğnesi", "📍", 2, 480, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Kadın giysilerini tutturan uzun iğne.", "truva"),
+    t_idol: I("Taş Tanrıça İdolü", "🗿", 3, 1300, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Troya’nın ilk katmanlarından minik idol.", "truva"),
+    t_whorl: I("Kil Çıkrık Ağırlığı", "🌀", 3, 2100, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Üzerinde gizemli işaretler olan iğ ağırlığı.", "truva"),
+    t_ear: I("Altın Küpe", "👂", 3, 4600, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "“Priamos Hazinesi” türü altın takı.", "truva"),
+    t_diad: I("Altın Diadem", "👑", 3, 7600, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Schliemann’ın “Priamos Hazinesi”ndeki ünlü başlık türü.", "truva"),
+    t_horse: I("Truva Atı Parçası", "🐴", 3, 16000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Homeros’un anlattığı ahşap at… (efsane).", "truva"),
+    m_coin: I("Kommagene Bronz Sikkesi", "🪙", 2, 420, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Kral I. Antiochos dönemi bronz sikke.", "nemrut"),
+    m_seal: I("Kommagene Mührü", "🧿", 2, 760, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Taş üzerine oyulmuş krallık damgası.", "nemrut"),
+    m_hand: I("El Sıkışma Kabartması", "🤝", 3, 2000, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Kral ile tanrı Herakles’in el sıkışma sahnesi.", "nemrut"),
+    m_lion: I("Aslan Horoskopu Kabartması", "🦁", 3, 3200, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Yıldızlar ve aslan; antik gökyüzü haritası.", "nemrut"),
+    m_head: I("Tanrı Başı Parçası", "🗿", 3, 5600, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Dev heykel başlarından kopan parça.", "nemrut"),
+    m_eagle: I("Kartal Heykel Parçası", "🦅", 3, 8200, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Tümülüsü bekleyen taş kartal.", "nemrut"),
+    m_crown: I("Antiochos’un Tacı", "👑", 3, 19000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Dağın zirvesindeki kralın tacı (efsane).", "nemrut"),
+    f_lamp: I("Roma Kandili", "🪔", 2, 320, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Efes sokaklarını aydınlatan pişmiş toprak kandil.", "efes"),
+    f_bee: I("Arı Motifli Sikke", "🐝", 2, 560, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Efes’in simgesi arı basılı bronz sikke.", "efes"),
+    f_glass: I("Roma Cam Şişe", "🧴", 3, 1500, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Parfüm ya da merhem şişesi.", "efes"),
+    f_cist: I("Gümüş Kistophoros", "🪙", 3, 2600, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Bölgenin gümüş sikkesi.", "efes"),
+    f_art: I("Artemis Heykelciği", "🗿", 3, 5400, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Çok memeli Efes Artemisi’nin küçük kopyası.", "efes"),
+    f_neck: I("Altın Adak Kolyesi", "📿", 3, 8200, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Tapınağa adanan altın kolye.", "efes"),
+    f_bee2: I("Efes’in Altın Arısı", "🐝", 3, 21000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Artemis Tapınağı’nın efsanevi adağı.", "efes"),
+    s_axe: I("Çakmaktaşı Balta", "🪓", 2, 420, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Dev taşları işleyen aletlerden.", "stone"),
+    s_antler: I("Geyik Boynuzu Kazma", "🦌", 2, 700, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Hendekleri kazan boynuz kazma.", "stone"),
+    s_beaker: I("Çan Biçimli Kap", "🏺", 3, 1800, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "“Bell Beaker” kültürünün işlemeli kabı.", "stone"),
+    s_brace: I("Okçu Bileklik Taşı", "⭕", 3, 3000, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Yaylı okçuların bileğine takılan taş.", "stone"),
+    s_hair: I("Altın Saç Süsü", "✨", 3, 6000, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Amesbury Okçusu mezarından çıkanlara benzer.", "stone"),
+    s_lunula: I("Altın Lunula", "🌙", 3, 9500, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Ay biçimli Tunç Çağı boyun süsü.", "stone"),
+    s_cup: I("Altın Kupa", "🏆", 3, 22000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Rillaton Kupası türü tek parça altın kupa.", "stone"),
+    q_pot: I("Nabatî Çanak", "🏺", 2, 520, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Kâğıt inceliğinde boyalı Nabatî seramik.", "petra"),
+    q_coin: I("Nabatî Gümüş Drahmi", "🪙", 2, 900, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Baharat yolunun gümüş parası.", "petra"),
+    q_incense: I("Buhur Yakma Kabı", "⚱️", 3, 2300, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Tütsü ticaretinin vazgeçilmez kabı.", "petra"),
+    q_betyl: I("Betil Taş Anıt", "🗿", 3, 3800, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Tanrı Dushara’yı simgeleyen taş blok.", "petra"),
+    q_dush: I("Altın Dushara Figürü", "🏛️", 3, 6600, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Nabatî baş tanrının altın figürü.", "petra"),
+    q_ring: I("Altın Mühür Yüzük", "💍", 3, 10200, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Bir kervan tüccarının mührü.", "petra"),
+    q_urn: I("Hazne’nin Altın Urnesi", "🏺", 3, 26000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Hazne’nin tepesindeki urnede firavun hazinesi varmış (efsane).", "petra"),
+    a_pot: I("Khmer Seramiği", "🏺", 2, 560, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Sırlı Khmer çanağı.", "angkor"),
+    a_bell: I("Bronz Tapınak Çanı", "🔔", 2, 980, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Rahiplerin ritüel çanı.", "angkor"),
+    a_apsara: I("Apsara Taş Kabartma", "💃", 3, 2400, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Dans eden gök perilerinden biri.", "angkor"),
+    a_naga: I("Naga Bronz Heykelcik", "🐍", 3, 4200, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Yedi başlı kobra bekçi.", "angkor"),
+    a_vishnu: I("Altın Vişnu Heykelcik", "🕉️", 3, 7800, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Tapınağın ilk tanrısı Vişnu.", "angkor"),
+    a_leaf: I("Altın Yaprak Buda", "☸️", 3, 11800, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Sonraki dönem Budist adak.", "angkor"),
+    a_bayon: I("Bayon Altın Yüz Maskesi", "🎭", 3, 27000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Bayon kulelerinin gülümseyen yüzü (efsane).", "angkor"),
+    x_bead: I("Yeşim Boncuk", "🟢", 2, 700, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Maya soylularının en değerli taşı.", "chichen"),
+    x_obs: I("Obsidyen Kurban Bıçağı", "🔪", 2, 1200, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Ritüel bıçağı.", "chichen"),
+    x_shell: I("Oyma Deniz Kabuğu", "🐚", 3, 2800, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Trompet olarak da çalınan kabuk.", "chichen"),
+    x_bell: I("Altın Çan", "🔔", 3, 5000, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Kutsal Cenote’ye atılan adak çan.", "chichen"),
+    x_disc: I("Altın Adak Diski", "🥇", 3, 9000, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Cenote’den çıkan repoussé altın disk.", "chichen"),
+    x_mask: I("Yeşim Mozaik Maske", "🎭", 3, 14000, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Yüzlerce yeşim parçasından maske.", "chichen"),
+    x_kuk: I("Kukulkan’ın Altın Yılanı", "🐍", 3, 32000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Tüylü yılan tanrının altın heykeli (efsane).", "chichen"),
+    z_chisel: I("Bakır Keski", "🔨", 2, 900, 0.72, [58, 68], [0.1, 0.55], 9, "copper", "Piramit blokları kesen işçi aleti.", "giza"),
+    z_amulet: I("Fayans Amulet", "🧿", 2, 1500, 0.76, [56, 66], [0.2, 0.7], 6, "copper", "Koruyucu tanrı Bes figürlü amulet.", "giza"),
+    z_ush: I("Ushabti Heykelciği", "🗿", 3, 3600, 0.82, [78, 88], [0.3, 0.9], 4.5, "silver", "Ahirette çalışacak cevap-verici figür.", "giza"),
+    z_sph: I("Sfenks Kabartma Parçası", "🦁", 3, 6200, 0.85, [80, 90], [0.35, 1.0], 3, "silver", "Aslan gövdeli koruyucunun kabartması.", "giza"),
+    z_brace: I("Altın Bilezik", "⭕", 3, 10800, 0.92, [78, 90], [0.6, 1.4], 1.8, "gold", "Kraliçe Hetepheres tipi altın takı.", "giza"),
+    z_boat: I("Güneş Gemisi Parçası", "⛵", 3, 24000, 0.95, [84, 93], [0.8, 1.6], 1, "gold", "Keops’un sedir ağacından yapılan gemisinden.", "giza"),
+    z_cart: I("Altın Kartuş Levha", "📜", 3, 54000, 1, [90, 98], [1.2, 1.9], 0.3, "legend", "Büyük Piramit’in sahibinin adının yazılı olduğu altın levha.", "giza")
   };
   const SHARED = ['nail', 'cap', 'foil', 'tab', 'copper', 'sring', 'scoin', 'gring'];
 
@@ -671,7 +742,7 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
   const L = (id, name, from) => ({ id, name, from });
   const loc = (id, name, from) => L(id, name, from);
 
-  const REGION_ORDER = ['gobekli', 'karahan', 'usak', 'gordion', 'hattusa', 'pompei', 'machu', 'luksor'];
+  const REGION_ORDER = ['gobekli', 'catal', 'karahan', 'truva', 'usak', 'nemrut', 'gordion', 'efes', 'zeugma', 'hattusa', 'stone', 'pompei', 'petra', 'angkor', 'machu', 'chichen', 'giza', 'luksor'];
   const R = (o, local) => Object.assign(o, { local });
   const REGIONS = {
     gobekli: R({ name: 'Göbeklitepe', place: 'Şanlıurfa, Türkiye', era: 'Neolitik · MÖ 9500', icon: '🗿', price: 0, minLevel: 1, rich: .15, tint: ['#c2a15f', '#4a3a1e'],
@@ -699,11 +770,15 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
       landmarks: [L('ruins', 'Aslanlı Kapı', "Aslanlı Kapı'nın sol sütunundan"), L('statue', 'Sfenks Kapısı', "Sfenks Kapısı'nın ayaklarından"), L('cave', 'Yerkapı Tüneli', 'Yerkapı Tüneli’nin girişinden'), L('tower', 'Büyük Kale', "Büyük Kale'nin kuzey burcundan"),
         L('rocks', 'Yazılıkaya', "Yazılıkaya'nın kabartmalı duvarından"), L('well', 'Kuru Havuz', "Kuru Havuz'un kenarından"), L('spring', 'Kutsal Havuz', "Kutsal Havuz'un taş kenarından"), L('tomb', 'Kral Mezarı', "Kral Mezarı'nın girişinden")] },
       ['h_tab', 'h_seal', 'h_sword', 'h_sun', 'h_lion', 'h_treaty', 'h_king']),
+    zeugma: R({ name: 'Zeugma Antik Kenti', place: 'Nizip, Gaziantep, Türkiye', era: 'Roma · MS 2.–3. yy', icon: '🧩', price: 15500, minLevel: 9, rich: .52, tint: ['#c9a070', '#4a3420'],
+      desc: 'Fırat’ın köprü kenti: baraj suyuna gömülen villalar, mozaikler ve ünlü Çingene Kızı.', depthHint: '1.3 m+', biome: { waterQ: .24, rockQ: .84, remap: {} },
+      landmarks: [L("bridge", "Fırat Geçidi", "“Fırat Geçidi” işaretinin yanından"), L("ruins", "Poseidon Villası", "“Poseidon Villası” işaretinin yanından"), L("statue", "Mars Heykeli Çukuru", "“Mars Heykeli Çukuru” işaretinin yanından"), L("well", "Roma Sarnıcı", "“Roma Sarnıcı” işaretinin yanından"), L("tower", "Belkıs Kalesi", "“Belkıs Kalesi” işaretinin yanından"), L("spring", "Fırat Kıyısı", "“Fırat Kıyısı” işaretinin yanından"), L("pillars", "Villa Sütunları", "“Villa Sütunları” işaretinin yanından"), L("cave", "Kaya Mezarı", "“Kaya Mezarı” işaretinin yanından")] },
+      ['w_coin', 'w_lamp', 'w_seal', 'w_tess', 'w_mars', 'w_pos', 'p_gypsy']),
     pompei: R({ name: 'Pompei Antik Kenti', place: 'Napoli, İtalya', era: 'Roma · MS 79', icon: '🌋', price: 36000, minLevel: 12, rich: .65, tint: ['#9a8a7a', '#33292a'],
       desc: 'Vezüv’ün küllerinde donmuş şehir. Yer yer zehirli gaz ve çöken kül tabakası!', depthHint: '1.5 m+', biome: { waterQ: .17, rockQ: .84, remap: {} }, soil: 'rock',
       landmarks: [L('ruins', 'Forum Sütunları', "Forum Sütunları'nın son sırasından"), L('statue', 'Jüpiter Tapınağı', "Jüpiter Tapınağı'nın kaidesinden"), L('well', 'Villa Havuzu', "Villa Havuzu'nun kuru kenarından"), L('cave', 'Fırın Mahzeni', 'Fırın Mahzeni’nin ağzından'),
         L('tower', 'Amfitiyatro', "Amfitiyatro'nun üst sırasından"), L('bridge', 'Roma Yolu', "Roma Yolu'nun devrik taşından"), L('tomb', 'Mezarlık Yolu', "Mezarlık Yolu'nun ilk lahdinden"), L('spring', 'Sokak Çeşmesi', "Sokak Çeşmesi'nin mermer teknesinden")] },
-      ['p_sest', 'p_lamp', 'p_den', 'p_tess', 'p_ring', 'p_snake', 'p_gypsy', 'p_helm']),
+      ['p_sest', 'p_lamp', 'p_den', 'p_tess', 'p_ring', 'p_snake', 'p_helm']),
     machu: R({ name: 'Machu Picchu', place: 'Cuzco, Peru', era: 'İnka İmparatorluğu · 15. yy', icon: '🦙', price: 60000, minLevel: 15, rich: .7, tint: ['#6e9a6a', '#1e3a2a'],
       desc: 'Bulutların üstündeki taş şehir. Sisli, dik ve çok değerli; her adım dikkat ister.', depthHint: '1.7 m+', biome: { waterQ: .2, rockQ: .78, remap: { sand: 'grass' } },
       landmarks: [L('rocks', 'Güneş Tapınağı', "Güneş Tapınağı'nın kavisli duvarından"), L('statue', 'Intihuatana', "Intihuatana Taşı'nın gölgesinden"), L('ruins', 'Teraslar', "En üst terasın kenarından"), L('tower', 'Gözcü Kulübesi', "Gözcü Kulübesi'nin taş çatısından"),
@@ -713,7 +788,35 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
       desc: 'Firavunların gizli mezar odaları. En derin, en tehlikeli, en kazançlı saha.', depthHint: '2.0 m+', biome: { waterQ: .12, rockQ: .82, remap: { grass: 'sand', forest: 'palm' } }, soil: 'sand',
       landmarks: [L('pyramid', 'Mühürlü Mezar Girişi', "Mühürlü Mezar Girişi'nin basamağından"), L('obelisk', 'Dikili Taş', "Dikili Taş'ın doğu yüzünden"), L('statue', 'Anubis Heykeli', "Anubis Heykeli'nin ayaklarından"), L('tomb', 'KV62 Girişi', "KV62'nin basamaklı girişinden"),
         L('cave', 'Gizli Mezar Odası', "Gizli mezar odasının ağzından"), L('well', 'Vaha Kuyusu', "Vaha Kuyusu'nun başından"), L('spring', 'Vaha', "Vaha'nın palmiyeli kıyısından"), L('ruins', 'Tapınak Sütunları', "Tapınak sütunlarının son sırasından")] },
-      ['e_faz', 'e_ush', 'e_scar', 'e_ankh', 'e_pect', 'e_dag', 'e_mask'])
+      ['e_faz', 'e_ush', 'e_scar', 'e_ankh', 'e_pect', 'e_dag', 'e_mask']),
+
+    catal: R({ name: "Çatalhöyük", place: "Konya, Türkiye", era: "Neolitik · MÖ 7100", icon: "🐂", price: 900, minLevel: 2, rich: 0.2, tint: ['#c9a86a', '#4a3a1e'], desc: "Sokaksız, çatıdan girilen en eski şehir. Sığ ve rahat; ikinci saha.", depthHint: "0.4 m+", biome: { waterQ: .12, rockQ: .86, remap: { grass: 'sand' } }, soil: 'sand',
+      landmarks: [L("ruins", "Ev Kalıntıları", "“Ev Kalıntıları” işaretinin yanından"), L("statue", "Ana Tanrıça Taşı", "“Ana Tanrıça Taşı” işaretinin yanından"), L("rocks", "Obsidyen Yığını", "“Obsidyen Yığını” işaretinin yanından"), L("well", "Eski Kuyu", "“Eski Kuyu” işaretinin yanından"), L("plane", "Yalnız Akasya", "“Yalnız Akasya” işaretinin yanından"), L("tower", "Çatı Girişi", "“Çatı Girişi” işaretinin yanından"), L("cave", "Gömü Odası", "“Gömü Odası” işaretinin yanından"), L("spring", "Çarşamba Çayı", "“Çarşamba Çayı” işaretinin yanından")] },
+      ['c_flint', 'c_bead', 'c_seal', 'c_mirror', 'c_bull', 'c_map', 'c_god']),
+    truva: R({ name: "Truva (Troya)", place: "Çanakkale, Türkiye", era: "Tunç Çağı · MÖ 3000", icon: "🐴", price: 3000, minLevel: 4, rich: 0.3, tint: ['#7d9a6a', '#2a3a22'], desc: "Homeros’un destanındaki şehir: dokuz katman, bir at ve çok efsane.", depthHint: "0.9 m+", biome: { waterQ: .2, rockQ: .86, remap: {} },
+      landmarks: [L("tower", "Hisarlık Burcu", "“Hisarlık Burcu” işaretinin yanından"), L("ruins", "Troya VI Surları", "“Troya VI Surları” işaretinin yanından"), L("statue", "Truva Atı Heykeli", "“Truva Atı Heykeli” işaretinin yanından"), L("well", "Priamos Kuyusu", "“Priamos Kuyusu” işaretinin yanından"), L("rocks", "Kuşatma Hendeği", "“Kuşatma Hendeği” işaretinin yanından"), L("plane", "Çınar Korusu", "“Çınar Korusu” işaretinin yanından"), L("bridge", "Skamandros Köprüsü", "“Skamandros Köprüsü” işaretinin yanından"), L("spring", "Kaz Dağı Pınarı", "“Kaz Dağı Pınarı” işaretinin yanından")] },
+      ['t_arrow', 't_pin', 't_idol', 't_whorl', 't_ear', 't_diad', 't_horse']),
+    nemrut: R({ name: "Nemrut Dağı", place: "Adıyaman, Türkiye", era: "Kommagene · MÖ 1. yy", icon: "🗿", price: 6500, minLevel: 6, rich: 0.4, tint: ['#a8998a', '#34302c'], desc: "2134 metrede, dev tanrı başlarının nöbet tuttuğu yapay tümülüs.", depthHint: "1.0 m+", biome: { waterQ: .1, rockQ: .6, remap: { grass: 'rock' } }, soil: 'rock',
+      landmarks: [L("statue", "Tanrı Başları", "“Tanrı Başları” işaretinin yanından"), L("tomb", "Taş Yığını Tümülüs", "“Taş Yığını Tümülüs” işaretinin yanından"), L("pillars", "Doğu Terası", "“Doğu Terası” işaretinin yanından"), L("obelisk", "Kommagene Dikilitaşı", "“Kommagene Dikilitaşı” işaretinin yanından"), L("bridge", "Cendere Köprüsü", "“Cendere Köprüsü” işaretinin yanından"), L("rocks", "Kaya Basamakları", "“Kaya Basamakları” işaretinin yanından"), L("cave", "Arsameia Tüneli", "“Arsameia Tüneli” işaretinin yanından"), L("tower", "Zirve Gözcüsü", "“Zirve Gözcüsü” işaretinin yanından")] },
+      ['m_coin', 'm_seal', 'm_hand', 'm_lion', 'm_head', 'm_eagle', 'm_crown']),
+    efes: R({ name: "Efes", place: "İzmir, Türkiye", era: "Antik Yunan–Roma · MÖ 10. yy", icon: "🐝", price: 13000, minLevel: 8, rich: 0.5, tint: ['#b2a080', '#3e3626'], desc: "Artemis’in şehri: Celsus Kütüphanesi, Büyük Tiyatro ve mermer yollar.", depthHint: "1.2 m+", biome: { waterQ: .2, rockQ: .84, remap: {} },
+      landmarks: [L("ruins", "Celsus Kütüphanesi", "“Celsus Kütüphanesi” işaretinin yanından"), L("statue", "Artemis Tapınağı", "“Artemis Tapınağı” işaretinin yanından"), L("tower", "Büyük Tiyatro", "“Büyük Tiyatro” işaretinin yanından"), L("pillars", "Mermer Cadde", "“Mermer Cadde” işaretinin yanından"), L("well", "Hamam Sarnıcı", "“Hamam Sarnıcı” işaretinin yanından"), L("bridge", "Liman Yolu", "“Liman Yolu” işaretinin yanından"), L("tomb", "Aziz Yuhanna Mezarı", "“Aziz Yuhanna Mezarı” işaretinin yanından"), L("spring", "Kuretler Çeşmesi", "“Kuretler Çeşmesi” işaretinin yanından")] },
+      ['f_lamp', 'f_bee', 'f_glass', 'f_cist', 'f_art', 'f_neck', 'f_bee2']),
+    stone: R({ name: "Stonehenge", place: "Wiltshire, İngiltere", era: "Neolitik–Tunç Çağı · MÖ 3000", icon: "🪨", price: 26000, minLevel: 11, rich: 0.55, tint: ['#8aa36a', '#26381e'], desc: "Gündönümüne hizalı gizemli taş çember. Sisli çayır, çamurlu zemin.", depthHint: "1.4 m+", biome: { waterQ: .1, rockQ: .9, remap: { sand: 'grass' } }, soil: 'grass',
+      landmarks: [L("pillars", "Taş Çember", "“Taş Çember” işaretinin yanından"), L("tomb", "Höyük Mezarı", "“Höyük Mezarı” işaretinin yanından"), L("rocks", "Mavi Taş Yığını", "“Mavi Taş Yığını” işaretinin yanından"), L("plane", "Yalnız Meşe", "“Yalnız Meşe” işaretinin yanından"), L("well", "Yağmur Gölcüğü", "“Yağmur Gölcüğü” işaretinin yanından"), L("ruins", "Avenue Yolu", "“Avenue Yolu” işaretinin yanından"), L("statue", "Topuk Taşı", "“Topuk Taşı” işaretinin yanından"), L("mill", "Çiftlik Değirmeni", "“Çiftlik Değirmeni” işaretinin yanından")] },
+      ['s_axe', 's_antler', 's_beaker', 's_brace', 's_hair', 's_lunula', 's_cup']),
+    petra: R({ name: "Petra", place: "Maʿan, Ürdün", era: "Nabatî · MÖ 4. yy", icon: "🏜️", price: 46000, minLevel: 13, rich: 0.6, tint: ['#d9936a', '#5a2a18'], desc: "Kayalara oyulmuş gül kırmızısı başkent. Dar Siq, Hazne, gizli mezarlar.", depthHint: "1.6 m+", biome: { waterQ: .1, rockQ: .82, remap: { grass: 'sand', forest: 'palm' } }, soil: 'sand',
+      landmarks: [L("statue", "Hazne", "“Hazne” işaretinin yanından"), L("cave", "Siq Kanyonu", "“Siq Kanyonu” işaretinin yanından"), L("tomb", "Kraliyet Mezarları", "“Kraliyet Mezarları” işaretinin yanından"), L("tower", "Manastır", "“Manastır” işaretinin yanından"), L("pillars", "Sütunlu Cadde", "“Sütunlu Cadde” işaretinin yanından"), L("well", "Nabatî Sarnıcı", "“Nabatî Sarnıcı” işaretinin yanından"), L("rocks", "Kurban Yüksekliği", "“Kurban Yüksekliği” işaretinin yanından"), L("spring", "Musa Pınarı", "“Musa Pınarı” işaretinin yanından")] },
+      ['q_pot', 'q_coin', 'q_incense', 'q_betyl', 'q_dush', 'q_ring', 'q_urn']),
+    angkor: R({ name: "Angkor Wat", place: "Siem Reap, Kamboçya", era: "Khmer · 12. yy", icon: "🛕", price: 52000, minLevel: 14, rich: 0.65, tint: ['#6e9a4a', '#1e3a1a'], desc: "Ormanın yuttuğu tapınak şehri. Muson yağmurları, ağaç kökleri, gülümseyen yüzler.", depthHint: "1.6 m+", biome: { waterQ: .26, rockQ: .84, remap: { sand: 'grass' } }, soil: 'grass',
+      landmarks: [L("tower", "Angkor Wat Kuleleri", "“Angkor Wat Kuleleri” işaretinin yanından"), L("statue", "Bayon Yüzleri", "“Bayon Yüzleri” işaretinin yanından"), L("ruins", "Ta Prohm Kökleri", "“Ta Prohm Kökleri” işaretinin yanından"), L("bridge", "Naga Köprüsü", "“Naga Köprüsü” işaretinin yanından"), L("spring", "Baray Havuzu", "“Baray Havuzu” işaretinin yanından"), L("plane", "Kapok Ağacı", "“Kapok Ağacı” işaretinin yanından"), L("cave", "Gizli Galeri", "“Gizli Galeri” işaretinin yanından"), L("tomb", "Kraliyet Terası", "“Kraliyet Terası” işaretinin yanından")] },
+      ['a_pot', 'a_bell', 'a_apsara', 'a_naga', 'a_vishnu', 'a_leaf', 'a_bayon']),
+    chichen: R({ name: "Chichén Itzá", place: "Yucatán, Meksika", era: "Maya–Toltek · MS 600–1200", icon: "🐍", price: 80000, minLevel: 16, rich: 0.72, tint: ['#7aa05a', '#26401e'], desc: "Kukulkan Piramidi’nin gölgesinde, cenote ve top sahası. Nemli ve kaygan.", depthHint: "1.8 m+", biome: { waterQ: .14, rockQ: .84, remap: { sand: 'grass' } }, soil: 'grass',
+      landmarks: [L("pyramid", "Kukulkan Piramidi", "“Kukulkan Piramidi” işaretinin yanından"), L("well", "Kutsal Cenote", "“Kutsal Cenote” işaretinin yanından"), L("ruins", "Savaşçılar Tapınağı", "“Savaşçılar Tapınağı” işaretinin yanından"), L("statue", "Chac Mool", "“Chac Mool” işaretinin yanından"), L("pillars", "Bin Sütun", "“Bin Sütun” işaretinin yanından"), L("tower", "Gözlemevi", "“Gözlemevi” işaretinin yanından"), L("rocks", "Top Sahası", "“Top Sahası” işaretinin yanından"), L("plane", "Seiba Ağacı", "“Seiba Ağacı” işaretinin yanından")] },
+      ['x_bead', 'x_obs', 'x_shell', 'x_bell', 'x_disc', 'x_mask', 'x_kuk']),
+    giza: R({ name: "Giza Piramitleri", place: "Gize, Mısır", era: "Eski Krallık · MÖ 2560", icon: "🔺", price: 95000, minLevel: 17, rich: 0.78, tint: ['#e6c47a', '#6a4a1a'], desc: "Antik Dünyanın Yedi Harikası’ndan ayakta kalan tek eser ve onu bekleyen Sfenks.", depthHint: "1.9 m+", biome: { waterQ: .1, rockQ: .84, remap: { grass: 'sand', forest: 'palm' } }, soil: 'sand',
+      landmarks: [L("pyramid", "Keops Piramidi", "“Keops Piramidi” işaretinin yanından"), L("statue", "Büyük Sfenks", "“Büyük Sfenks” işaretinin yanından"), L("pyramid", "Kefren Piramidi", "“Kefren Piramidi” işaretinin yanından"), L("obelisk", "Dikilitaş", "“Dikilitaş” işaretinin yanından"), L("tomb", "İşçi Mezarlığı", "“İşçi Mezarlığı” işaretinin yanından"), L("rocks", "Taş Ocağı", "“Taş Ocağı” işaretinin yanından"), L("cave", "Vadi Tapınağı", "“Vadi Tapınağı” işaretinin yanından"), L("well", "Güneş Gemisi Çukuru", "“Güneş Gemisi Çukuru” işaretinin yanından")] },
+      ['z_chisel', 'z_amulet', 'z_ush', 'z_sph', 'z_brace', 'z_boat', 'z_cart'])
   };
   REGION_ORDER.forEach((id, i) => { REGIONS[id].id = id; REGIONS[id].idx = i; });
 
@@ -829,8 +932,8 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
       scroll: 'Bin tanrının şehri susar,\naslanlar kapıda bekler.\nSol aslanın gözünden doğuya say,\nkazı çukurunda bir tablet seni anlar.'
     },
     pompei: {
-      lore: 'MS 79’da Vezüv patlaması Pompei’yi 4–6 m külle örttü. Giuseppe Fiorelli 1860’larda kül içindeki boşlukları alçıyla doldurup insan kalıplarını çıkardı. Duvarlarda “Cave Canem” mozaikleri, SATOR kare tılsımı ve gladyatör kışlası bulundu. Şehir bir anda donmuş gibi korundu. Roma mozaik geleneğinin başka bir ucu olan Gaziantep Zeugma’daki “Çingene Kızı” mozaiği (MS 2.–3. yy) ise gerçekte sikke değil, mozaiktir; oyundaki sikke kurgusal bir anma parçasıdır.',
-      artifacts: { p_sest: 'real', p_lamp: 'real', p_den: 'real', p_tess: 'real', p_ring: 'real', p_snake: 'real', p_gypsy: 'myth', p_helm: 'real' },
+      lore: 'MS 79’da Vezüv patlaması Pompei’yi 4–6 m külle örttü. Giuseppe Fiorelli 1860’larda kül içindeki boşlukları alçıyla doldurup insan kalıplarını çıkardı. Duvarlarda “Cave Canem” mozaikleri, SATOR kare tılsımı ve gladyatör kışlası bulundu. Şehir bir anda donmuş gibi korundu.',
+      artifacts: { p_sest: 'real', p_lamp: 'real', p_den: 'real', p_tess: 'real', p_ring: 'real', p_snake: 'real', p_helm: 'real' },
       hazards: [{ id: 'gas', name: 'Zehirli Gaz', desc: 'Pil hızla tükenir.', type: 'drain', p: .24 }, { id: 'ash', name: 'Kül Çökmesi', desc: 'Kazı yavaşlar.', type: 'slow', p: .22 }],
       puzzle: { q: 'Pompei’de bulunan palindrom “SATOR” karesi hangi sözle biter?', opts: ['ROTAS', 'TENET', 'AREPO'], a: 0, hint: 'SATOR AREPO TENET OPERA …', },
       scroll: 'Dağ uyudu, şehir küle dönüştü,\nfırıncı ekmeğini, kadın bileziğini bıraktı.\nÇeşmenin soluna dön, köpek mozaiğini bul;\n“Dikkat köpek var” diyen taşın altında bir yılan uyur.'
@@ -851,6 +954,59 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
     }
   };
 
+
+  Object.assign(LORE, {
+    zeugma: { lore: 'Gaziantep’in Nizip ilçesindeki Zeugma (Seleukeia Euphrates), MÖ 300 dolaylarında Büyük İskender’in generali I. Seleukos Nikator tarafından Fırat kıyısında kuruldu; adı “köprü, geçit” anlamına gelir. Roma döneminde (MS 1.–3. yy) önemli bir sınır garnizonu ve ticaret geçidiydi. 2000 yılında Birecik Barajı’nın gölü kentin büyük bölümünü sular altında bıraktı; kurtarma kazılarında villa mozaikleri, binlerce kil mühür ve 2005’te bronz Mars heykeli çıktı. Ünlü “Çingene Kızı” mozaiği (genellikle Gaia olarak yorumlanır) 1998’de ortaya çıkarıldı; mozaikler Zeugma Mozaik Müzesi’nde (2011) sergilenir. Oyundaki Çingene Kızı Sikkesi gerçek bir buluntu değil, kurgusal bir anma parçasıdır.',
+      artifacts: { w_coin: 'real', w_lamp: 'real', w_seal: 'real', w_tess: 'real', w_mars: 'real', w_pos: 'real', p_gypsy: 'myth' },
+      hazards: [{ id: 'flood', name: 'Fırat Taşkını', desc: 'Sulu çamur kazıyı yavaşlatır.', type: 'slow', p: .24 }, { id: 'looter', name: 'Kaçak Kazıcı Çukurları', desc: 'Pil boşalır.', type: 'drain', p: .2 }, { id: 'mist', name: 'Nehir Sisi', desc: 'Sahte sinyaller artar.', type: 'ghost', p: .18 }],
+      puzzle: { q: 'Zeugma sözcüğü ne anlama gelir?', opts: ['Köprü / geçit', 'Kale', 'Altın'], a: 0, hint: 'Fırat’ı geçtiği yer.' },
+      scroll: 'Fırat köprü olduğunda şehir doğdu, baraj dolduğunda şehir uyudu.\nGözleri taştan bir kız, toprağın altında bakar;\nkaşının gölgesi hangi villaya düşerse\nbir altın sikke orada seni bekler.' },
+    catal: { lore: "Konya Ovası’ndaki Çatalhöyük (MÖ 7100–5700), sokağı olmayan, evlerin çatılarındaki delikten girildiği bir Neolitik yerleşimdir. James Mellaart 1958’de kazıya başladı, Ian Hodder 1993’ten itibaren sürdürdü; alan 2012’de UNESCO Dünya Mirası oldu. Ölüler evlerin tabanının altına gömülürdü; duvarlarda boğa başı kabartmaları ve resimler vardı. Obsidyen (volkanik cam) ticareti ve aynalar ünlüdür.",
+      artifacts: { c_flint: 'real', c_bead: 'real', c_seal: 'real', c_mirror: 'real', c_bull: 'real', c_map: 'real', c_god: 'real' },
+      hazards: [{ id: "roof", name: "Çatı Girişi Çöküşü", desc: "Kerpiç çatı çöker, kazı yavaşlar.", type: "slow", p: 0.24 }, { id: "shard", name: "Obsidyen Kıymıkları", desc: "Kıymıklar pili ve eli yorar.", type: "drain", p: 0.2 }],
+      puzzle: {"q": "Çatalhöyük hangi ilimizde yer alır?", "opts": ["Konya", "Aksaray", "Karaman"], "a": 0, "hint": "Çumra ilçesi."},
+      scroll: "Sokak yok, kapı çatıdadır;\nbasamak aşağı iner, ata altında uyur.\nBoğa boynuzunun gölgesi düştüğü yerde\nobsidyen aynada bir yüz saklıdır." },
+    truva: { lore: "Çanakkale’deki Hisarlık Höyüğü, Homeros’un İlyada’sındaki Troya olarak kabul edilir. Heinrich Schliemann 1870’lerde kazdı ve “Priamos Hazinesi”ni buldu; Dörpfeld, Blegen ve Korfmann kazıları sürdürdü. Dokuz ana yerleşim katmanı vardır; UNESCO listesine 1998’de girdi. Ahşap Truva Atı Homeros’un anlatısındadır, arkeolojik bir buluntusu yoktur.",
+      artifacts: { t_arrow: 'real', t_pin: 'real', t_idol: 'real', t_whorl: 'real', t_ear: 'real', t_diad: 'real', t_horse: 'myth' },
+      hazards: [{ id: "trench", name: "Kuşatma Hendeği", desc: "Dar hendeğe düşersin, kazı yavaşlar.", type: "slow", p: 0.22 }, { id: "myth", name: "Efsane Sisi", desc: "Sahte sinyaller çoğalır.", type: "ghost", p: 0.2 }, { id: "wind", name: "Kuzey Rüzgârı", desc: "Pil hızla boşalır.", type: "drain", p: 0.18 }],
+      puzzle: {"q": "Troya hangi ilimizdedir?", "opts": ["Çanakkale", "Balıkesir", "İzmir"], "a": 0, "hint": "Boğazın kıyısı."},
+      scroll: "Sur yıkıldı, at gitti, destan kaldı.\nKapıyı sen aç, atı sen bul.\nHisarlık’ın ikinci burcundan inen çukurda\naltın bir taç Homeros’u bekliyor." },
+    nemrut: { lore: "Adıyaman’daki Nemrut Dağı’nın 2134 m’lik zirvesinde, Kommagene Kralı I. Antiochos (MÖ 69–36) kendi mezarı için taş parçalarından yapay bir tümülüs yığdı. Tümülüsün terasları Yunan ve İran tanrılarının, kralın ve aslan-kartal heykellerinin dev başlarıyla çevrilidir. Karl Sester 1881’de keşfetti; UNESCO listesine 1987’de girdi. Aslan Horoskopu, bilinen en eski gökyüzü betimlerinden biridir.",
+      artifacts: { m_coin: 'real', m_seal: 'real', m_hand: 'real', m_lion: 'real', m_head: 'real', m_eagle: 'real', m_crown: 'myth' },
+      hazards: [{ id: "cold", name: "Zirve Soğuğu", desc: "Pil hızlı boşalır.", type: "drain", p: 0.24 }, { id: "scree", name: "Kayan Taş Yığını", desc: "Kazı yavaşlar.", type: "slow", p: 0.22 }, { id: "fog", name: "Sis Bulutu", desc: "Sahte sinyaller artar.", type: "ghost", p: 0.16 }],
+      puzzle: {"q": "Nemrut Dağı Anıtı hangi krallığa aittir?", "opts": ["Kommagene", "Frig", "Lidya"], "a": 0, "hint": "MÖ 1. yüzyıl."},
+      scroll: "Tanrılar zirvede başsız oturur,\nbaşlar yamaçta, gökyüzü onları sayar.\nAslanın üç yıldızını say, doğunun terasına in;\nel sıkışan iki dost orada gömülüdür." },
+    efes: { lore: "İzmir’in Selçuk ilçesindeki Efes, Antik Dünyanın Yedi Harikası’ndan Artemis Tapınağı’na ev sahipliği yapmıştı; tapınağı MÖ 356’da Herostratos yaktı. Roma döneminde Celsus Kütüphanesi (MS 2. yüzyıl) ve yaklaşık 25.000 kişilik Büyük Tiyatro inşa edildi. Avusturya Arkeoloji Enstitüsü 1895’ten beri kazıyor; UNESCO listesine 2015’te girdi. Şehrin simgesi arıdır.",
+      artifacts: { f_lamp: 'real', f_bee: 'real', f_glass: 'real', f_cist: 'real', f_art: 'real', f_neck: 'real', f_bee2: 'myth' },
+      hazards: [{ id: "column", name: "Devrilen Sütun", desc: "Kazı yavaşlar.", type: "slow", p: 0.2 }, { id: "heat", name: "Ege Güneşi", desc: "Pil boşalır.", type: "drain", p: 0.22 }, { id: "echo", name: "Tiyatro Yankısı", desc: "Sahte sinyaller çoğalır.", type: "ghost", p: 0.18 }],
+      puzzle: {"q": "Efes’te hangi tapınak Antik Dünyanın Yedi Harikası’ndandı?", "opts": ["Artemis Tapınağı", "Zeus Tapınağı", "Hadrian Tapınağı"], "a": 0, "hint": "Çok memeli tanrıça."},
+      scroll: "Arı kovanında mermer bal tutar,\nkütüphane kitapsız, tiyatro seyircisiz.\nÇok memeli ananın tapınağı sulara karıştı;\nkolyeyi arayan, arının uçtuğu yöne bakmaz — yere bakar." },
+    stone: { lore: "İngiltere’nin Wiltshire kırsalındaki Stonehenge’in ilk evresi MÖ 3000 civarındadır; dev sarsen taşları yaklaşık 25 ton, “mavi taşlar” ise 240 km uzaktaki Galler’in Preseli Tepeleri’nden getirildi. Yapı yaz gündönümü gün doğumuna ve kış gündönümü batışına hizalıdır; amacı kesin bilinmez. UNESCO’ya 1986’da girdi. Yakındaki Amesbury Okçusu mezarında (MÖ ~2300) altın saç süsleri bulundu.",
+      artifacts: { s_axe: 'real', s_antler: 'real', s_beaker: 'real', s_brace: 'real', s_hair: 'real', s_lunula: 'real', s_cup: 'real' },
+      hazards: [{ id: "mist", name: "Sisli Çayır", desc: "Sahte sinyaller artar.", type: "ghost", p: 0.24 }, { id: "mud", name: "Çamurlu Zemin", desc: "Kazı yavaşlar.", type: "slow", p: 0.22 }, { id: "chill", name: "Soğuk Rüzgâr", desc: "Pil boşalır.", type: "drain", p: 0.18 }],
+      puzzle: {"q": "Stonehenge hangi ülkededir?", "opts": ["İngiltere", "İrlanda", "Fransa"], "a": 0, "hint": "Wiltshire."},
+      scroll: "Güneş yazın en uzun gününde\nTopuk Taşı’nın tepesinden doğar.\nMavi taşlar Galler’den gelir, sarsenler susar;\nhizada, ama ona değil — gölgesine kaz." },
+    petra: { lore: "Ürdün’ün güneyindeki Petra, MÖ 4. yüzyıldan itibaren Arap Nabatîlerin baharat ve tütsü ticaretiyle zenginleşen başkentiydi. Kayaya oyulmuş Hazne (Al-Khazneh), 1,2 km’lik Siq kanyonunun sonunda belirir. Johann Ludwig Burckhardt 1812’de Batı’ya yeniden tanıttı; UNESCO’ya 1985’te girdi. “Gül Kırmızı Şehir” de denir. Hazne’nin urnesinde firavun hazinesi olduğu rivayeti bir efsanedir.",
+      artifacts: { q_pot: 'real', q_coin: 'real', q_incense: 'real', q_betyl: 'real', q_dush: 'real', q_ring: 'real', q_urn: 'myth' },
+      hazards: [{ id: "flood", name: "Siq Sel Baskını", desc: "Pil boşalır.", type: "drain", p: 0.22 }, { id: "rock", name: "Kaya Düşmesi", desc: "Kazı yavaşlar.", type: "slow", p: 0.22 }, { id: "mirage", name: "Çöl Seraplar", desc: "Sahte sinyaller artar.", type: "ghost", p: 0.2 }],
+      puzzle: {"q": "Petra hangi ülkededir?", "opts": ["Ürdün", "Suriye", "Irak"], "a": 0, "hint": "Maʿan bölgesi."},
+      scroll: "Dar yarıktan geçen kervan gül rengi bir saraya varır.\nUrnada hazine yok, yalnız rüzgâr var;\nama Dushara’nın taşını bulan\nsarayın arkasındaki sarnıçta altın bulur." },
+    angkor: { lore: "Kamboçya’daki Angkor Wat, II. Suryavarman’ın 12. yüzyılın başında Vişnu’ya adadığı Khmer tapınağıdır; dünyanın en büyük dini yapısı sayılır, sonra Budist tapınağa dönüştü. Angkor Thom’daki Bayon’un gülümseyen yüzleri ve ağaç köklerinin sardığı Ta Prohm ünlüdür. Henri Mouhot 1860’ta Batı’ya duyurdu; UNESCO’ya 1992’de girdi. Barayların oluşturduğu karmaşık bir su sistemi vardı.",
+      artifacts: { a_pot: 'real', a_bell: 'real', a_apsara: 'real', a_naga: 'real', a_vishnu: 'real', a_leaf: 'real', a_bayon: 'myth' },
+      hazards: [{ id: "monsoon", name: "Muson Yağmuru", desc: "Kazı yavaşlar.", type: "slow", p: 0.24 }, { id: "humid", name: "Boğucu Nem", desc: "Pil boşalır.", type: "drain", p: 0.22 }, { id: "roots", name: "Dolaşık Kökler", desc: "Kazı yavaşlar.", type: "slow", p: 0.14 }, { id: "jungle", name: "Orman Sisi", desc: "Sahte sinyaller artar.", type: "ghost", p: 0.16 }],
+      puzzle: {"q": "Angkor Wat hangi ülkededir?", "opts": ["Kamboçya", "Tayland", "Vietnam"], "a": 0, "hint": "Siem Reap."},
+      scroll: "Dört yüzlü kule gülümser, kök taşı yutar.\nVişnu’nun tapınağı sulara bakar;\nnaga köprüsünü geçenin ilk gölgesinde\nbir gök perisi altınla dans eder." },
+    chichen: { lore: "Meksika’nın Yucatán Yarımadası’ndaki Chichén Itzá, Maya ve Toltek etkilerini birleştiren büyük bir şehirdi (yaklaşık MS 600–1200). El Castillo (Kukulkan Piramidi) her bahar ve sonbahar ekinoksunda yılan gölgesini merdivenlere düşürür; dört cephedeki 91’er basamak ve tepe 365 sayısını verir. Kutsal Cenote’de altın, yeşim ve kurban adakları bulundu (1904’te Edward Thompson). UNESCO’ya 1988’de girdi.",
+      artifacts: { x_bead: 'real', x_obs: 'real', x_shell: 'real', x_bell: 'real', x_disc: 'real', x_mask: 'real', x_kuk: 'myth' },
+      hazards: [{ id: "heat", name: "Tropik Sıcak", desc: "Pil boşalır.", type: "drain", p: 0.24 }, { id: "slip", name: "Kaygan Basamak", desc: "Kazı yavaşlar.", type: "slow", p: 0.2 }, { id: "snake", name: "Yılan Sürüsü", desc: "Sahte sinyaller ve panik.", type: "ghost", p: 0.16 }],
+      puzzle: {"q": "Chichén Itzá hangi ülkededir?", "opts": ["Meksika", "Peru", "Guatemala"], "a": 0, "hint": "Yucatán."},
+      scroll: "Gün eşitlenir, yılan merdivenden iner.\nCenote’nin ağzında kurbanlar sessizdir;\nTopun geçtiği sahanın yankısını say,\nbin sütunun gölgesi altına kazı." },
+    giza: { lore: "Mısır’da Kahire yakınındaki Giza Platosu’nda, Keops (Khufu) Piramidi (~MÖ 2560, özgün boyu 146,6 m) Antik Dünyanın Yedi Harikası’ndan ayakta kalan tek yapıdır. Kefren ve Menkaure piramitleri ile Büyük Sfenks de buradadır. Piramitleri kölelerin değil ücretli işçilerin yaptığı işçi köylerinin kanıtlarıyla anlaşıldı; Wadi el-Jarf’ta bulunan Merer papirüsleri (2013) taş taşıma kayıtlarını tutar. Keops’un sedir ağacından gemisi bulunmuştur.",
+      artifacts: { z_chisel: 'real', z_amulet: 'real', z_ush: 'real', z_sph: 'real', z_brace: 'real', z_boat: 'real', z_cart: 'myth' },
+      hazards: [{ id: "sand", name: "Kum Fırtınası", desc: "Pil boşalır.", type: "drain", p: 0.24 }, { id: "heat", name: "Çöl Sıcağı", desc: "Pil boşalır.", type: "drain", p: 0.18 }, { id: "shaft", name: "Gizli Şaft", desc: "Kazı yavaşlar.", type: "slow", p: 0.2 }, { id: "curse", name: "Firavun Fısıltısı", desc: "Sahte sinyaller artar.", type: "ghost", p: 0.16 }],
+      puzzle: {"q": "Giza’daki Büyük Piramit kimindir?", "opts": ["Keops (Khufu)", "Tutankhamun", "Ramses"], "a": 0, "hint": "Eski Krallık firavunu."},
+      scroll: "Dört bin yıl, iki milyon taş, bir bekçi.\nAslan gövde insan yüzle doğuya bakar;\nama hazine yüzün baktığı yerde değil,\nkartuşun yazdığı adın gölgesinde yatar." },
+  });
   /** Bulmaca havuzları: doğru cevap her zaman 0. indekste yazılır, ekranda karıştırılır. */
   const Q = (q, opts, hint) => ({ q, opts, a: 0, hint });
   const POOL = {
@@ -917,6 +1073,19 @@ input{font-family:inherit;user-select:text;-webkit-user-select:text}
       Q('Tutankhamun’un mezarı hangi vadidedir?', ['Krallar Vadisi', 'Kraliçeler Vadisi', 'Nil Deltası'], 'Luksor’un batı yakası.')
     ]
   };
+
+  Object.assign(POOL, {
+    zeugma: [Q('Zeugma hangi ilimizdedir?', ['Gaziantep', 'Şanlıurfa', 'Adıyaman'], 'Nizip ilçesi.'), Q('Zeugma sözcüğü ne anlama gelir?', ['Köprü / geçit', 'Kale', 'Altın'], 'Fırat’ı geçtiği yer.'), Q('Zeugma’nın büyük bölümü hangi barajın suları altında kaldı?', ['Birecik Barajı', 'Atatürk Barajı', 'Keban Barajı'], 'Fırat üzerinde, 2000’de.'), Q('“Çingene Kızı” mozaiği genellikle hangi tanrıçayı betimler diye yorumlanır?', ['Gaia', 'Athena', 'Afrodit'], 'Toprak ana.'), Q('Zeugma mozaikleri hangi müzede sergilenir?', ['Zeugma Mozaik Müzesi', 'Anadolu Medeniyetleri Müzesi', 'İstanbul Arkeoloji Müzesi'], 'Gaziantep’te, 2011.'), Q('Zeugma hangi nehir kıyısındadır?', ['Fırat', 'Dicle', 'Kızılırmak'], 'Mezopotamya’nın nehirlerinden.'), Q('Zeugma’yı kuran komutan kimdir?', ['I. Seleukos Nikator', 'Büyük İskender', 'Sezar'], 'İskender’in generali.')],
+    catal: [Q("Çatalhöyük hangi ilimizde yer alır?", ["Konya", "Aksaray", "Karaman"], "Çumra ilçesi."), Q("Çatalhöyük evlerine nereden girilirdi?", ["Çatıdaki delikten", "Ana kapıdan", "Yer altı tünelinden"], "Sokak yoktu."), Q("Çatalhöyük’te 1958’de kazıya başlayan arkeolog kimdir?", ["James Mellaart", "Howard Carter", "Hugo Winckler"], "İngiliz arkeolog."), Q("Çatalhöyük hangi yıl UNESCO Dünya Mirası Listesi’ne girdi?", ["2012", "1985", "2018"], "2010’lu yıllar."), Q("Çatalhöyükte ölüler nereye gömülürdü?", ["Evin tabanının altına", "Şehir dışındaki mezarlığa", "Denize"], "Ataların evinde yaşardı."), Q("Çatalhöyük’te aynalar hangi malzemeden yapılırdı?", ["Obsidyen", "Bronz", "Gümüş"], "Volkanik cam.")],
+    truva: [Q("Troya hangi ilimizdedir?", ["Çanakkale", "Balıkesir", "İzmir"], "Boğazın kıyısı."), Q("Troya’yı 1870’lerde kazan arkeolog kimdir?", ["Heinrich Schliemann", "Howard Carter", "Rodney Young"], "Alman iş insanı-arkeolog."), Q("Troya Savaşı’nı anlatan destan hangisidir?", ["İlyada", "Gılgamış", "Kalevala"], "Homeros."), Q("Troya Atı fikrini kim ortaya attı?", ["Odysseus", "Aşil", "Hektor"], "Kurnaz Yunan kral."), Q("Troya UNESCO listesine hangi yıl girdi?", ["1998", "1985", "2012"], "Yirminci yüzyılın sonları."), Q("Troya höyüğünün adı nedir?", ["Hisarlık", "Kerkenes", "Alacahöyük"], "“Hisar” sözcüğü içerir.")],
+    nemrut: [Q("Nemrut Dağı Anıtı hangi krallığa aittir?", ["Kommagene", "Frig", "Lidya"], "MÖ 1. yüzyıl."), Q("Nemrut’taki tümülüsü yaptıran kral kimdir?", ["I. Antiochos", "Midas", "Kroisos"], "Kommagene kralı."), Q("Nemrut Dağı hangi ilimizdedir?", ["Adıyaman", "Malatya", "Kahta"], "Kahta ilçesi bu ildedir."), Q("Nemrut Dağı UNESCO listesine hangi yıl girdi?", ["1987", "2018", "2012"], "1980’lerin sonu."), Q("Nemrut’taki tanrılar hangi kültürlerin karışımıdır?", ["Yunan ve İran", "Mısır ve Roma", "Hitit ve Sümer"], "Doğu-batı sentezi."), Q("Nemrut Dağı’nın yüksekliği yaklaşık kaç metredir?", ["≈ 2134 m", "≈ 800 m", "≈ 3500 m"], "Anıtsal zirve.")],
+    efes: [Q("Efes’te hangi tapınak Antik Dünyanın Yedi Harikası’ndandı?", ["Artemis Tapınağı", "Zeus Tapınağı", "Hadrian Tapınağı"], "Çok memeli tanrıça."), Q("Artemis Tapınağı’nı MÖ 356’da kim yaktı?", ["Herostratos", "Büyük İskender", "Neron"], "Ün için yaktı."), Q("Efes hangi ilimizdedir?", ["İzmir", "Aydın", "Manisa"], "Selçuk ilçesi."), Q("Efes’in simgesi hangi canlıdır?", ["Arı", "Kartal", "Aslan"], "Bal yapar."), Q("Efes Büyük Tiyatrosu yaklaşık kaç kişiliktir?", ["≈ 25.000", "≈ 2.000", "≈ 100.000"], "Çok büyük."), Q("Efes hangi yıl UNESCO listesine girdi?", ["2015", "1985", "1998"], "2010’lu yıllar.")],
+    stone: [Q("Stonehenge hangi ülkededir?", ["İngiltere", "İrlanda", "Fransa"], "Wiltshire."), Q("Stonehenge hangi gökyüzü olayına hizalıdır?", ["Yaz gündönümü gün doğumu", "Ay tutulması", "Kuyruklu yıldız"], "Yılın en uzun günü."), Q("“Mavi taşlar” nereden getirilmiştir?", ["Galler", "İskoçya", "Normandiya"], "Yaklaşık 240 km."), Q("Stonehenge yaklaşık hangi döneme tarihlenir?", ["MÖ 3000–2000", "MÖ 500", "MS 1000"], "Tunç Çağı öncesi."), Q("Stonehenge UNESCO listesine hangi yıl girdi?", ["1986", "2012", "1998"], "1980’ler."), Q("Bir sarsen taşı yaklaşık kaç ton gelir?", ["≈ 25 ton", "≈ 2 ton", "≈ 500 ton"], "Çok ağır.")],
+    petra: [Q("Petra hangi ülkededir?", ["Ürdün", "Suriye", "Irak"], "Maʿan bölgesi."), Q("Petra’yı kuran halk hangisidir?", ["Nabatîler", "Persler", "Hititler"], "Baharat yolu tüccarları."), Q("Petra’ya girilen dar kanyonun adı nedir?", ["Siq", "Wadi", "Mağara"], "1,2 km uzunluğunda."), Q("Petra’yı 1812’de Batı’ya tanıtan kaşif kimdir?", ["Johann Ludwig Burckhardt", "Hiram Bingham", "Howard Carter"], "İsviçreli kaşif."), Q("Petra’nın ünlü yapısı “Hazne” ne anlama gelir?", ["Hazine", "Mezar", "Kale"], "Arapça “Al-Khazneh”."), Q("Petra UNESCO listesine hangi yıl girdi?", ["1985", "2012", "1998"], "1980’ler.")],
+    angkor: [Q("Angkor Wat hangi ülkededir?", ["Kamboçya", "Tayland", "Vietnam"], "Siem Reap."), Q("Angkor Wat’ı hangi imparatorluk yaptırdı?", ["Khmer", "Moğol", "Burma"], "12. yüzyıl."), Q("Angkor Wat başlangıçta hangi tanrıya adandı?", ["Vişnu", "Buda", "Zeus"], "Hindu tanrı."), Q("Ta Prohm’u hangi bitki sarmıştır?", ["Dev ağaç kökleri", "Sarmaşık çiçekleri", "Bambu"], "Ünlü kök manzarası."), Q("Bayon tapınağının ünlü özelliği nedir?", ["Gülümseyen taş yüzler", "Altın kubbe", "Yüzen kule"], "Dört yüzlü kuleler."), Q("Angkor UNESCO listesine hangi yıl girdi?", ["1992", "1985", "2012"], "1990’ların başı.")],
+    chichen: [Q("Chichén Itzá hangi ülkededir?", ["Meksika", "Peru", "Guatemala"], "Yucatán."), Q("Chichén Itzá’yı hangi uygarlık kurdu?", ["Maya", "İnka", "Aztek"], "Orta Amerika."), Q("El Castillo’nun ekinoksta gölgesinde gözüken hayvan hangisidir?", ["Yılan (Kukulkan)", "Jaguar", "Kartal"], "Tüylü yılan."), Q("Kutsal Cenote nedir?", ["Doğal çukur/kuyu", "Piramit", "Pazar yeri"], "Adak yeri."), Q("El Castillo’nun toplam basamak sayısı kaçtır?", ["365", "100", "52"], "Yılın gün sayısı."), Q("Chichén Itzá UNESCO listesine hangi yıl girdi?", ["1988", "2012", "1992"], "1980’ler.")],
+    giza: [Q("Giza’daki Büyük Piramit kimindir?", ["Keops (Khufu)", "Tutankhamun", "Ramses"], "Eski Krallık firavunu."), Q("Antik Dünyanın Yedi Harikası’ndan günümüze ayakta kalan hangisidir?", ["Büyük Piramit", "Artemis Tapınağı", "Rodos Heykeli"], "Giza’da."), Q("Büyük Sfenks’in bedeni hangi hayvandır?", ["Aslan", "Boğa", "Şahin"], "İnsan başlı koruyucu."), Q("Piramitleri kimler inşa etti?", ["Ücretli işçiler", "Yalnızca köleler", "Yabancı esirler"], "Giza işçi köyü bulundu."), Q("Giza hangi şehrin yakınındadır?", ["Kahire", "Luksor", "İskenderiye"], "Mısır’ın başkenti."), Q("Piramitler yaklaşık kaç yıl öncesine aittir?", ["≈ 4500 yıl", "≈ 1500 yıl", "≈ 10.000 yıl"], "MÖ 26. yüzyıl.")],
+  });
   /** Bölge için (son sorulanları tekrarlamadan) bir bulmaca seç */
   function pickPuzzle(id) {
     const S = TH.State, st = S.get(); st.asked = st.asked || {}; const pool = POOL[id] || [LORE[id].puzzle];
